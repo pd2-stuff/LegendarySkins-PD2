@@ -13,9 +13,6 @@ Extract the zip and drag the folder inside of the payday2 mods folder
 
 Start the game and enjoy!
 
- ## Example of a shotgun with DLC weapon modifications WITHOUT getting cheater tag
-
-![mod01](https://raw.githubusercontent.com/8fn/DLC-Unlocker-PD2/master/docs/img/mod01.png)
 
 ## DLC Unlocker
 Download [here!](https://github.com/8fn/DLC-Unlocker-PD2.git)
