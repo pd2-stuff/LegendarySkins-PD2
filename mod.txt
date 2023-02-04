@@ -1,0 +1,11 @@
+{		
+    "name" : "Legendary Skins",
+    "description" : "Legendary Skins for your weapons!",
+    "author" : "tsk",
+    "contact" : "https://github.com/8fn/LegendarySkins-PD2",
+    "version" : "",
+    "persist_scripts" :
+    [
+        {"global" : "The Rock Door", "script_path" : "Scripts/legendary_skins.lua"}
+    ],
+}
