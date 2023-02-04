@@ -6,6 +6,6 @@
     "version" : "",
     "persist_scripts" :
     [
-        {"global" : "The Rock Door", "script_path" : "Scripts/legendary_skins.lua"}
+        {"global" : "Legendary Skins", "script_path" : "Scripts/legendary_skins.lua"}
     ],
 }
