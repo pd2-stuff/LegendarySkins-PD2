@@ -13,6 +13,10 @@ Extract the zip and drag the folder inside of the payday2 mods folder
 
 Start the game and enjoy!
 
+## Preview
+![img1](https://raw.githubusercontent.com/8fn/LegendarySkins-PD2/master/docs/inventory.png)
+![img2](https://raw.githubusercontent.com/8fn/LegendarySkins-PD2/master/docs/legendary_judge.png)
+![img3](https://raw.githubusercontent.com/8fn/LegendarySkins-PD2/master/docs/preview.png)
 
 ## DLC Unlocker
 Download [here!](https://github.com/8fn/DLC-Unlocker-PD2.git)
