@@ -8,7 +8,7 @@
 **Players** can see your legendary skins equipped on your weapons!
 
 ## Instalation
-Download [here!](https://github.com/8fn/LegendarySkins-PD2/archive/refs/heads/master.zip)
+Download [here!](https://github.com/pd2-stuff/LegendarySkins-PD2/archive/refs/heads/master.zip)
 Extract the zip and drag the folder inside of the payday2 mods folder
 
 Start the game and enjoy!
