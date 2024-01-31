@@ -10,12 +10,14 @@ local inventory_tradable = M_blackmarket._global.inventory_tradable
 local i = 1
 local j = tostring(i)
 for id, data in pairs( weapon_skins ) do
-	while inventory_tradable[j] ~= nil do
-		i = i + 1
-		j = tostring(i)
-	end
-	if not M_blackmarket:have_inventory_tradable_item( "weapon_skins", id ) then
-		M_blackmarket:tradable_add_item( j, "weapon_skins", id, "mint", true, 1 )
+	if not string.find(id, "color") then
+		while inventory_tradable[j] ~= nil do
+			i = i + 1
+			j = tostring(i)
+		end
+		if not M_blackmarket:have_inventory_tradable_item( "weapon_skins", id ) then
+			M_blackmarket:tradable_add_item( j, "weapon_skins", id, "mint", true, 1 )
+		end
 	end
 end
 
@@ -39,8 +41,10 @@ end
 
 -- Modifiable Legendary Skins
 local weapon_skins = tweak_data.blackmarket.weapon_skins
-for _, data in pairs(weapon_skins) do
-	data.locked = false
+for id, data in pairs(weapon_skins) do
+	if not string.find(id, "color") then
+		data.locked = false
+	end
 end
 
 local crafted = managers.blackmarket._global.crafted_items
