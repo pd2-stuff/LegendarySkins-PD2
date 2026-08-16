@@ -2,7 +2,7 @@
     "name" : "Legendary Skins",
     "description" : "Legendary Skins for your weapons!",
     "author" : "tsk",
-    "contact" : "https://github.com/8fn/LegendarySkins-PD2",
+    "contact" : "https://github.com/yyykmm/LegendarySkins-PD2",
     "version" : "",
     "persist_scripts" :
     [
