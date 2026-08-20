@@ -1,6 +1,5 @@
 --  Purpose:  Gives you all skins
---  Authors:  Written by Simplity, fixes by Davy Jones/yazeedoo
---  Performance fix:  stop the persist script after initialization.
+--  Authors:  Written by Simplity, fixes by Davy Jones
 local tostring = tostring
 local type = type
 
@@ -63,6 +62,3 @@ for _, safe in pairs(tweak_data.economy.safes) do
 		safe.market_link = "Fake Link"
 	end
 end
-
--- Finished Persist Script
-_G["Legendary Skins"] = true
